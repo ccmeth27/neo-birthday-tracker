@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 const NeoModal = () => {
-    //Some code taken from https://www.pluralsight.com/guides/working-with-bootstraps-modals-react
+    //Some code taken from this guide https://www.pluralsight.com/guides/working-with-bootstraps-modals-react
     const [isOpen, setIsOpen] = React.useState(false);
   
     const showModal = () => {
