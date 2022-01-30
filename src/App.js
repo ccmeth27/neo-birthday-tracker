@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import BodyContainer from './BodyContainer'
 import './App.css';
+import bgimg from './assets/neo-bg.jpeg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App">
+        <img src={bgimg} class="img-fluid" alt="bg"></img>
+        <div class='Nav'>
+          <h1 class="display-5">
+            NEO Birthday Tracker
+          </h1>
+        </div>
+          <BodyContainer/>
     </div>
   );
 }
