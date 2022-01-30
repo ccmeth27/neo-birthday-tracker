@@ -1,7 +1,8 @@
-Built with creat-react-app and Bootstrap.
+Built with creat-react-app and Bootstrap.\
 Used the react-day-picker plugin which can be found at https://react-day-picker.js.org/
 
-## Available Scripts
+## Scripts
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
